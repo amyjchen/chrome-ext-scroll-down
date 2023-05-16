@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Stay Down",
+  "version": "0.0.0.1",
+  "description": "Extension that scrolls to the bottom of the page. Works on Google Docs and Notion pages.",
+  "icons": {
+    "300": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
+}
